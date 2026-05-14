@@ -10,10 +10,9 @@ def prevedi(weights, bias, inputs):
 
 def main():
     # Inizializza i pesi
-    weights = [4.0, 1.5, 5.0, 1.0, 1.0] 
+    weights = [0.7, 0.6, 0.5, 0.3, 0.4] 
     
-    # Il bias è negativo significa che sei più propenso a rimanere a casa
-    bias = -6.0 
+    bias = 0.0
 
     print("--- Percettrone del Concerto ---")
     print("Inserisci i dati:")
